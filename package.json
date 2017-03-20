@@ -1,0 +1,27 @@
+{
+  "name": "j5-afmotorsheild-test",
+  "version": "0.1.0",
+  "description": "quick test of Adafruit 2941 motors on Adafruit 2348 rasperry pi hat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Adafruit",
+    "Motor",
+    "Shield",
+    "johnny",
+    "five",
+    "AF2941",
+    "AF2348"
+  ],
+  "repository" : {
+    "type" : "git", "url" : "https://github.com/arawinters/j5-afmotorsheild-test.git"
+  },
+  "dependencies": {
+    "johnny-five" : "^0.10.6",
+    "raspi-io" : "latest"
+  },
+  "author": "Ara Winters <ara.winters@gmail.com>",
+  "license": "ISC"
+}
