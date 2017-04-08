@@ -53,7 +53,7 @@ rpi.on("ready", function() {
   motors.forEach(function(mref, mind){
     _inject['motor'+(mind+1)] = mref;
   });
-  board.repl.inject(_inject);
+  rpi.repl.inject(_inject);
 
 
   // ------------ diagnostic logging ------------
